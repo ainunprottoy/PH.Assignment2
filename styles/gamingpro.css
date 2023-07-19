@@ -20,7 +20,7 @@ nav {
     align-items: center;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-
+    width: 100%;
 }
 
 nav ul {
@@ -225,8 +225,7 @@ nav a {
 }
 
 .container2-imgs {
-    display: flex;
-}
+    display: flex; padding-left: 25px}
 
 .container2-img {
     height: 200px;
@@ -366,3 +365,80 @@ footer {
 }
 
 /* footer styles end */
+/* Media Query */
+@media screen and (max-width:425px) {
+    .container nav {
+        flex-direction: column;
+    }
+
+    .container ul {
+        flex-direction: column;
+    }
+
+    .container {
+        align-items: center;
+        width: 235%;
+    }
+
+    .container1 {
+        width: 165%;
+        flex-direction: column;
+        align-items: center;
+        height: 200%;
+
+    }
+
+
+    .container2 h2,
+    p {
+        padding-left: 250px;
+        text-align: start;
+
+    }
+
+    .container2-imgs {
+        flex-direction: column;
+        margin-left: 140px;
+    }
+
+    .container3 {
+        margin-top: 1900px;
+        width: 230%;
+    }
+
+    .img-container1 {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 500px;
+    }
+
+    .img-container2 {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 500px;
+    }
+
+    .main3 {
+        flex-direction: column;
+    }
+
+    .img-container1{margin-top: 500px;}
+    .container3{height: 1000px;}
+.horseman{
+    padding-left: 230px;
+}
+.kitty{
+    height: 180px;
+    margin-left: 50px;
+    position: relative;
+    top: 70%;
+    left: 40%;}
+    
+    footer {
+        width: 235%;
+        margin-top: 1300px;
+        height: 400px;
+    }
+
+}
+/* Need guidelines in responsive badlyyyy */
