@@ -85,7 +85,7 @@ nav a {
     justify-content: space-between;
     padding: 0px 140px;
     background: #fdf3f3;
-    height: 500px;
+    height: 430px;
 }
 
 
@@ -112,7 +112,10 @@ nav a {
 
     font-size: 70px;
     font-weight: 600;
-    color: #FF42A5;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .container3-header {
@@ -123,6 +126,15 @@ nav a {
 
 .container3-para {
     color: #534C64;
+    text-align: start;
+}
+
+.main {
+    padding-top: 25px;
+}
+
+.main p {
+    text-align: start;
 }
 
 .main3 {
@@ -158,6 +170,94 @@ nav a {
     color: #fdf3f3;
 }
 
+
+
+.img-container img {
+    height: 30px;
+    width: auto;
+}
+
+.img-container1 {
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+    gap: 15px;
+}
+
+.img-container2 {
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    gap: 15px;
+}
+
+.main4 {
+    height: 200px;
+    padding-top: 5%;
+}
+
+.main4 p {
+    font-size: 15px;
+}
+
+.arcade-games {
+    border: 1px solid #FF42A5;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.game-icon {
+    display: flex;
+    align-items: center;
+    border: 1px solid #FFF;
+    border-radius: 30px;
+    background-color: #f7c3c357;
+}
+
+
+.funny-videos {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container2-imgs {
+    display: flex;
+}
+
+.container2-img {
+    height: 200px;
+    width: auto;
+}
+
+.container2 h2,
+p {
+    text-align: center;
+}
+
+.container2 {
+    height: 400px;
+    padding: 100px;
+}
+
+.container2 figcaption {
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: start;
+}
+
+.container2 p {
+    color: #534C64;
+}
+
+/* main styles end */
+
+/* footer styles */
 .heading-last {
     font-size: 25px;
     font-weight: 300;
@@ -213,5 +313,7 @@ footer {
 .copyright {
     color: #fdf3f3;
     text-align: center;
-    padding-bottom:30px ;
+    padding-bottom: 30px;
 }
+
+/* footer styles end */
